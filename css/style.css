@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.image-row{
+	background-image: linear-gradient(#04040485,#04040485),url("../images/food.jpeg");
+	display:flex;
+	align-items:center;
+	background-position:bottom;
+	width:100vw;
+	height:70vh;
+	gap:10%;
+	justify-content:center;
+	margin-top:60px;
+}
+.image-col>h2{
+	color:#ffff;
+	font-size:45px;
+	padding-bottom:5px;
+	letter-spacing:2px;
+}
+.image-col-workers>h2{
+	color:#ffff;
+	font-size:45px;
+	padding-bottom:5px;
+	letter-spacing:2px;
+	padding-left:5px;
+}
+.image-col>p{
+	color:#cdcbcb;
+	padding-left:7px;
+	font-weight:900;
+}
+.image-col-workers>p{
+	color:#cdcbcb;
+	padding-left:7px;
+	font-weight:900;
+}
